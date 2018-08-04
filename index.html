@@ -8,7 +8,7 @@
         margin: 0;
     }
 
-    a.navar-brand {
+    .PS {
         background-color: #4aaaa5;
         color: #ffffff;
         font-size: 30px;
@@ -20,6 +20,7 @@
         text-align: center;
         vertical-align: middle;
         line-height: 80px;
+        font-family: "Georgia, Times, Times New Roman, serif";
     }
 
     .container {
@@ -30,14 +31,33 @@
         position: absolute;
         right: 100px;
         top: 100px;
-
     }
+
+    .col-AboutMe-12 {
+        color: #4aaaa5;
+        font-family: "Georgia, Times, Times New Roman, serif";
+        font-size: 35px;
+    }
+
+    .greenrec {
+    background-color:#4aaaa5;
+    height: 10px;
+}
+
+.rectangle {
+    background-color: #666666;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+
+}
+
 </style>
 
 <body>
 
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">Perri Specter</a>
+        <div class="PS">Perri Specter</div>
         <form class="form-inline">
         </form>
         <ul class="nav justify-content-end">
@@ -56,22 +76,31 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-12">
+            <div class="col-AboutMe-12">
                 <strong>About Me</strong>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-sm-4">
-
-
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://cdna.artstation.com/p/assets/images/images/011/516/180/large/perri-specter-card-id-web.jpg?1529983542/200px100/" alt="Card image cap">
+                    <div class="card-body">
+                    </div>
+                </div>
             </div>
             <div class="col-sm-8">
-                <p>Hello all! My name is Perri Specter, and I'm a recent graduate of Ringling College of Art and Design.
-                I majored in illustration because drawing/creating are my favorite things to do. I've been drawing
-                for as long as I can remember! Nowadays, my digital painting involves me to spend copius amounts of time
-                infront of my computer which ruins my ability to stand up straight. Good times!</p></div>
+                <p>Hello all! My name is Perri Specter, and I'm a recent graduate of Ringling College of Art and Design. I majored
+                    in illustration because drawing/creating are my favorite things to do. I've been drawing for as long
+                    as I can remember! Nowadays, my digital painting involves me to spend copius amounts of time infront
+                    of my computer which ruins my ability to stand up straight. Good times!</p>
+            </div>
+            <div class="col-lg-12">
+            <div class="rectangle"></div>
+            <div class="greenrec"></div>
         </div>
+
+        
 
 </body>
 
